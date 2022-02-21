@@ -1,0 +1,24 @@
+/*MAIN*/
+.hero {
+    position: relative;
+    width:100% ;
+    height: 100vh;
+}
+
+/*primera imagen*/
+.hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*esto hace q la imagen no se distorcione*/
+    position: absolute;
+}
+
+/*primer titulo*/
+.hero__title {
+    position: absolute;
+    bottom: 15%;/*posiciona abajo (15% → distancia sobre el botton)*/
+    right: 10%; /*lo mismo aca, 10% distancia de la derecha*/
+    color: white;
+    font-size: 4rem;
+    padding: 15px;
+}
